@@ -40,7 +40,7 @@ const RecipeFinder = () => {
 
   return (
     <div className="recipe-finder-container">
-      <h1>Recipe Finder</h1>
+      <h1>Discover Some Deliciousness: Find your ulitmate recipe of any food!!</h1>
       <input
         type="text"
         placeholder="Search for recipes..."

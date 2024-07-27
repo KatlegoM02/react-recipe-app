@@ -14,7 +14,7 @@ const Footer = () => {
       </a>{" "}
       and is{" "}
       <a
-        href="https://github.com/KatlegoM02/react-recipe-finder"
+        href="https://github.com/KatlegoM02/react-recipe-app"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -22,7 +22,7 @@ const Footer = () => {
       </a>{" "}
       and{" "}
       <a
-        href="https://react-recipe-finder.onrender.com"
+        href="https://react-recipe-app-8xzv.onrender.com"
         target="_blank"
         rel="noopener noreferrer"
       >
