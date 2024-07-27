@@ -1,0 +1,115 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #DDA0DD;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.recipe-finder-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  max-width: 1000px;
+  text-align: center;
+  min-height: 70%;
+  margin: 40px auto;
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  width: calc(200px);
+  padding: 15px;
+  margin: 10px 20px; 
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #c55ec5;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #CC99CC;
+}
+
+.error {
+  color: red;
+  margin: 10px 0;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.recipe {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  width: 45%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.recipe img {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  height: 200px;
+}
+
+.recipe a {
+  color: #DDA0DD;
+  text-decoration: none;
+}
+
+.recipe a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .recipe-finder-container {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .recipe {
+    width: 100%;
+  }
+
+  input, button {
+    padding: 10px;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
+
+
